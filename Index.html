@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tables</title>
+</head>
+
+<style>
+    .content-table {
+        border-collapse: collapse;
+        margin: 30px 0;
+        font-size: 1.5em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    }
+    
+    .content-table thead {
+        background-color: #009688;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .content-table th td {
+        padding: 12px 15px;
+    }
+    
+    .content-table tbody tr {
+        border-bottom: 1px solid#dddddd;
+        color: rgb(134, 141, 134);
+    }
+    
+    .content-table tbody tr:nth-of-type(even) {
+        background: #f3f3f3;
+    }
+</style>
+
+
+<body style="padding: 0px 40px 0px 40px;">
+
+    <center style="color: #388278;">
+        <h1>St Benedict High School</h1>
+        <h2>Teacher: Mr.Ade</h2>
+        <h3>Class: SS2</h3>
+    </center>
+
+    <table width="100%" , class="content-table">
+        <thead>
+            <tr>
+                <th rowspan="3">S/N</th>
+                <th rowspan="3">Student Name</th>
+
+            </tr>
+            <tr>
+
+
+                <th colspan="5" style="padding-bottom: 15px;">Subject</th>
+                <th rowspan="3">Total</th>
+            </tr>
+            <tr>
+
+                <td>Mathematics</td>
+                <td>English</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                <td>Biology</td>
+        </thead>
+        <tbody>
+
+
+
+            </tr>
+            <tr>
+                <th>1</td>
+                    <th>AdeKunle</th>
+                    <th>72</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">43</th>
+                    <th>78</th>
+                    <th>73</th>
+                    <th>73</th>
+                    <th>303</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>John</th>
+                <th style="color: rgba(255, 0, 0, 0.699);">42</th>
+                <th>64</th>
+                <th>70</th>
+                <th>55</th>
+                <th>58</th>
+                <th>289</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Peter</th>
+                <th>62</th>
+                <th style="color: rgba(255, 0, 0, 0.699);">40</th>
+                <th>73</th>
+                <th>75</th>
+                <th>82</th>
+                <th>349</th>
+            </tr>
+            <tr>
+                <tr>
+                    <th>4</th>
+                    <th>Rukuya</th>
+                    <th>62</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">40</th>
+                    <th>73</th>
+                    <th>75</th>
+                    <th>82</th>
+                    <th>387</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>Paul</th>
+                    <th>72</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">40</th>
+                    <th>72</th>
+                    <th>70</th>
+                    <th>97</th>
+                    <th>351</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th>Victor</th>
+                    <th>76</th>
+                    <th>64</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">48</th>
+                    <th>99</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">37</th>
+                    <th>324</th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <th>John</th>
+                    <th>62</th>
+                    <th>54</th>
+                    <th>78</th>
+                    <th>75</th>
+                    <th>64</th>
+                    <th>333</th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <th>Doe</th>
+                    <th>52</th>
+                    <th>84</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">48</th>
+                    <th>85</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">27</th>
+                    <th>296</th>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <th>Stephen</th>
+                    <th>92</th>
+                    <th style="color: rgba(255, 0, 0, 0.699);">44</th>
+                    <th>78</th>
+                    <th>65</th>
+                    <th>61</th>
+                    <th>340</th>
+                </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
